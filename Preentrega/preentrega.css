@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.form-section{
+    background-color: rgb(153, 200, 228);
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 1%;
+}
+*{
+    box-sizing: content-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family:Shadows Into Light, Verdana,Tahoma, sans-serif;
+    font-size: x-large;  
+
+
+}
+header{
+    color: rgb(16, 17, 17);
+    background-color:rgb(153, 200, 228);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.flex-links{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+   
+}
+
+
+/*productos*/
+
+.productos-titulo{
+    text-align: center;
+    margin: 5%;
+    background-color: rgb(241, 241, 240);
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    background-color: rgb(241, 241, 240);
+    height: 300%;
+}
+.item{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 5%;
+     
+}
+
+/*card*/
+.precio{
+    font-size: xx-large;
+    text-align: center;
+    margin: 2%;
+}
+.oferta{
+    font-size: medium;
+    text-align: center;
+    margin: 1%;
+    color: green;
+}
+
+.comprar{
+    background-color: rgb(153, 200, 228);
+    color: black;
+    padding: 3%;
+    border-radius: 10%;
+    margin: 1%;
+    
+}
+
+.descripcion{
+    font-size: small;
+}
+.footer{
+    background-color: rgb(153, 200, 228);
+    color: rgb(25, 25, 26);
+    padding: 5%;
+    text-align: center;
+    border: 2px solid black;
+    font-family: Shadows Into Light, Verdana,Tahoma, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;;
+}
+
+.direccion{
+    text-align:left;
+    background-color: rgb(153, 200, 228);
+    
+    
+
+}
+
+.contacto{
+    text-align: left;
+    background-color: rgb(153, 200, 228);
+    font-size: 3vw;
+   }
+
+/*Medias Queries*/
+
+@media only screen and (max-width:600px){
+    .form-section{
+        background-color: cadetblue;
+        color: darkgoldenrod;
+    }
+
+
+}
+@media only screen and(max-width:400px){
+    header{
+        flex-direction: column ;
+        align-items: center;
+          
+    }
+}
